@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "010E092F-4996-4FEC-9D16-E7BE18FF9611",
+      "name" : "Develop",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:MVVMC.xcodeproj",
+          "identifier" : "37DBDB302DE190F800D1A67D",
+          "name" : "MVVMC"
+        }
+      ]
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MVVMC.xcodeproj",
+        "identifier" : "37DBDB3D2DE190FA00D1A67D",
+        "name" : "MVVMCTests"
+      }
+    }
+  ],
+  "version" : 1
+}

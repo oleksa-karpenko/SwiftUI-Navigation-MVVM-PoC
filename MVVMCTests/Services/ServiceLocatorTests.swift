@@ -3,8 +3,11 @@ import Testing
 
 @Suite
 struct ServiceLocatorTests {
-  struct MockService {
+  class MockService {
     let name: String
+    init(name: String) {
+      self.name = name
+    }
   }
 
   @Test("Registers and resolves service correctly")
